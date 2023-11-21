@@ -3,13 +3,13 @@ version: '3.9'
 services:
 
   app:
-    build: ./app
-    container_name: app
+    build: ./react-app
+    container_name: react-app
     tty: true
     ports:
       - 12000:3000
     volumes:
-      - ./app:/var/www
+      - ./react-app:/var/www
     networks:
       - default
     command: sh -c "yarn start"
