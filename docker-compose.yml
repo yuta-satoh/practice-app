@@ -6,7 +6,7 @@ services:
     container_name: react-app
     tty: true
     ports:
-      - 12000:3000
+      - 3000:3000
     volumes:
       - ./react-app:/react-app
     networks:

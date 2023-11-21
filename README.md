@@ -6,14 +6,14 @@
 docker-compose up -d
 ```
 
-イメージ表示
+イメージ一覧
 ```
 docker-compose images
 ```
 
-起動中コンテナ表示
+コンテナ一覧
 ```
-docker-compose ps
+docker-compose ps -a 
 ```
 
 コンテナ・イメージ削除
