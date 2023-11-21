@@ -19,5 +19,4 @@ docker-compose ls
 コンテナ・イメージ削除
 ```
 docker-compose down --rmi all --volumes --remove-orphans
-
 ```
