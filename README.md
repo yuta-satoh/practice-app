@@ -13,7 +13,7 @@ docker-compose images
 
 起動中コンテナ表示
 ```
-docker-compose ls
+docker-compose ps
 ```
 
 コンテナ・イメージ削除
